@@ -1,5 +1,17 @@
 # @ts-rest/open-api
 
+## 3.53.0
+
+### Minor Changes
+
+- f36510a: Add support for custom schema transformers to work with standard schema update in 3.53.0
+- f36510a: Support the "Standard Schema" validation interface to enable support for Zod4, Valibot, Arktype etc.
+- bb96ae5: Add operation ID parameter to operationMapper function, allowing using the appRoute's id in the callback.
+
+### Patch Changes
+
+- dd305e7: Support `c.otherResponse()` when generating OpenAPI schema
+
 ## 3.52.1
 
 ## 3.52.0
